@@ -157,7 +157,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     // Navega a la pantalla de registro
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => RegisterPage()),
+                      MaterialPageRoute(builder: (context) => LoginPage()),
                     );
                   },
                   child: Text('Registrarse'),
