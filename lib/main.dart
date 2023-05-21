@@ -236,7 +236,7 @@ class TabBarExample extends StatelessWidget {
                 icon: Icon(Icons.sports_gymnastics),
               ),
               Tab(
-                text: 'Oscio',
+                text: 'Ocio',
                 icon: Icon(Icons.bed),
               ),
             ],
