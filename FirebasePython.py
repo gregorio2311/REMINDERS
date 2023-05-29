@@ -1,6 +1,6 @@
 
 #Conectar la base de datos con Python
-''' METODO 1 para conecectarse a la base de datos de firebase'''
+''' METODO 1 para conecectarse a la base de datos de firebase
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import db
@@ -13,28 +13,28 @@ firebase_admin.initialize_app(firebase_sdk,{'databaseURL' : 'https://pia-apmov-d
 
 #Crear una coleccion (entidad) con funcion push 
 ref = db.reference('/Pendientes')
-ref.push({'Tipo' : 'Tareas', 'Hora' : '13:00', 'Recordar' : '13:00'})
+ref.push({'Tipo' : 'Tareas', 'Hora' : '13:00', 'Recordar' : '13:00'}) '''
 
 
-'''
                                         #CREAR UN API
-from flask import Flask, request
+from flask import Flask, request,jsonify
 
 app = Flask(__name__)
 
 @app.route('/ruta', methods=['POST'])
 def procesar_solicitud():
-    datos = request.get_json()
+    d = {}
+    d['datos'] = str(request.args['datos'])
     # Realiza las operaciones necesarias con Firebase
-    return 'OK'
+    return jsonify(d)
 
 if __name__ == '__main__':
     app.run()
-'''
 
 
-'''
-                                            METODO 2 para conectarse a la base de datos de firebase
+
+
+                                    #METODO 2 para conectarse a la base de datos de firebase
 from firebase import firebase
 
 firebase = firebase.FirebaseApplication("https://pia-apmov-default-rtdb.firebaseio.com/",None)
@@ -63,4 +63,3 @@ print(resultado)
 
 #Metodo para eliminar Delete
 #firebase.delete('/Carpeta_firebase/subcarpeta_firebase', '')
-'''
