@@ -3,12 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart'
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_ui_auth/firebase_ui_auth.dart'; // new
-import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';               // new
-import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';                 // new
-import 'estado_aplicacion.dart';                                 // new
+
 import 'firebase_options.dart';
 
 class ApplicationState extends ChangeNotifier {
