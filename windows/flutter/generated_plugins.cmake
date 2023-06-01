@@ -3,7 +3,10 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+<<<<<<< Updated upstream
   desktop_webview_auth
+=======
+>>>>>>> Stashed changes
   firebase_core
 )
 

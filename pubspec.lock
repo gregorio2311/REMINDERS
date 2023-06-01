@@ -121,6 +121,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.1"
+<<<<<<< Updated upstream
   ffi:
     dependency: transitive
     description:
@@ -161,6 +162,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.5.2"
+=======
+>>>>>>> Stashed changes
   firebase_core:
     dependency: "direct main"
     description:
@@ -185,6 +188,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.5.0"
+<<<<<<< Updated upstream
   firebase_dynamic_links:
     dependency: transitive
     description:
@@ -233,6 +237,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.0"
+=======
+>>>>>>> Stashed changes
   flutter:
     dependency: "direct main"
     description: flutter
@@ -269,6 +275,7 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+<<<<<<< Updated upstream
   go_router:
     dependency: "direct main"
     description:
@@ -309,6 +316,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.17.0"
+=======
+>>>>>>> Stashed changes
   js:
     dependency: transitive
     description:
@@ -373,6 +382,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.2"
+<<<<<<< Updated upstream
   path_parsing:
     dependency: transitive
     description:
@@ -445,6 +455,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.0"
+=======
+>>>>>>> Stashed changes
   plugin_platform_interface:
     dependency: transitive
     description:
@@ -453,6 +465,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
+<<<<<<< Updated upstream
   process:
     dependency: transitive
     description:
@@ -469,6 +482,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.0.5"
+=======
+>>>>>>> Stashed changes
   sky_engine:
     dependency: transitive
     description: flutter
@@ -588,4 +603,8 @@ packages:
     version: "6.2.2"
 sdks:
   dart: ">=2.19.6 <3.0.0"
+<<<<<<< Updated upstream
   flutter: ">=3.7.0-0"
+=======
+  flutter: ">=3.3.0"
+>>>>>>> Stashed changes

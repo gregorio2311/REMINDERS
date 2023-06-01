@@ -7,6 +7,28 @@
   "client": [
     {
       "client_info": {
+<<<<<<< Updated upstream
+=======
+        "mobilesdk_app_id": "1:245561382640:android:b4346144259d9e5f461435",
+        "android_client_info": {
+          "package_name": "com.example.gtk_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ3u-2AXo1eJscz0M5RiJ_RlFlG0tBRBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+>>>>>>> Stashed changes
         "mobilesdk_app_id": "1:245561382640:android:2d17fa52a62cfe42461435",
         "android_client_info": {
           "package_name": "com.example.pia_organizador"
